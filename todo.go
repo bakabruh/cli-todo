@@ -4,6 +4,7 @@ import (
 	"errors"
 	"fmt"
 	"os"
+	"strconv"
 	"time"
 
 	"github.com/aquasecurity/table"
@@ -96,5 +97,9 @@ func (todos *Todos) print() {
 				completedAt = t.CompletedAt.Format(time.RFC1123)
 			}
 		}
+
+		table.AddRow(strconv.Itoa(i), t.Title, completed, t.CreatedAt.Format(time.RFC1123), completedAt)
 	}
+
+	table.Render()
 }

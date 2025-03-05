@@ -1,0 +1,20 @@
+[
+  {
+    "Title": "Buy eggs",
+    "Completed": false,
+    "CreatedAt": "2025-03-04T17:53:56.8278779+01:00",
+    "CompletedAt": null
+  },
+  {
+    "Title": "Buy sausage",
+    "Completed": true,
+    "CreatedAt": "2025-03-04T17:53:56.8278779+01:00",
+    "CompletedAt": "2025-03-05T01:26:58.9143312+01:00"
+  },
+  {
+    "Title": "Faire les courses",
+    "Completed": true,
+    "CreatedAt": "2025-03-05T01:26:37.3342085+01:00",
+    "CompletedAt": "2025-03-05T01:28:48.2346408+01:00"
+  }
+]
